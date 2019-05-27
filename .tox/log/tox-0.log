@@ -1,0 +1,41 @@
+actionid: tox
+msg: packaging
+cmdargs: ['/usr/bin/python3', local('/home/dinesh/Desktop/python3_tox_example/setup.py'), 'sdist', '--formats=zip', '--dist-dir', local('/home/dinesh/Desktop/python3_tox_example/.tox/dist')]
+env: None
+
+running sdist
+running egg_info
+writing tox_example.egg-info/PKG-INFO
+writing dependency_links to tox_example.egg-info/dependency_links.txt
+writing top-level names to tox_example.egg-info/top_level.txt
+package init file 'tests/__init__.py' not found (or not a regular file)
+reading manifest file 'tox_example.egg-info/SOURCES.txt'
+writing manifest file 'tox_example.egg-info/SOURCES.txt'
+warning: sdist: standard file not found: should have one of README, README.rst, README.txt, README.md
+
+running check
+warning: check: missing required meta-data: url
+
+warning: check: missing meta-data: if 'author' supplied, 'author_email' must be supplied too
+
+creating tox-example-0.0.1
+creating tox-example-0.0.1/tests
+creating tox-example-0.0.1/tox_example.egg-info
+copying files to tox-example-0.0.1...
+copying setup.py -> tox-example-0.0.1
+copying tests/test_sample.py -> tox-example-0.0.1/tests
+copying tox_example.egg-info/PKG-INFO -> tox-example-0.0.1/tox_example.egg-info
+copying tox_example.egg-info/SOURCES.txt -> tox-example-0.0.1/tox_example.egg-info
+copying tox_example.egg-info/dependency_links.txt -> tox-example-0.0.1/tox_example.egg-info
+copying tox_example.egg-info/top_level.txt -> tox-example-0.0.1/tox_example.egg-info
+Writing tox-example-0.0.1/setup.cfg
+creating '.tox/dist/tox-example-0.0.1.zip' and adding 'tox-example-0.0.1' to it
+adding 'tox-example-0.0.1/setup.py'
+adding 'tox-example-0.0.1/PKG-INFO'
+adding 'tox-example-0.0.1/setup.cfg'
+adding 'tox-example-0.0.1/tests/test_sample.py'
+adding 'tox-example-0.0.1/tox_example.egg-info/top_level.txt'
+adding 'tox-example-0.0.1/tox_example.egg-info/dependency_links.txt'
+adding 'tox-example-0.0.1/tox_example.egg-info/PKG-INFO'
+adding 'tox-example-0.0.1/tox_example.egg-info/SOURCES.txt'
+removing 'tox-example-0.0.1' (and everything under it)
